@@ -1,0 +1,45 @@
+.section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    color: #464646;
+  }
+
+  .heading {
+    border-bottom: 1px solid #efefef;
+  }
+
+  .totals {
+    padding-top: 10px;
+    border-top: 1px solid #efefef;
+  }
+
+  .striped tbody > tr:nth-child(2n+1) {
+    background-color: #ededed;
+  }
+
+  .striped th, .striped td {
+    text-align: center;
+  }
+
+  .striped td:first-child, .striped th:first-child {
+    text-align: left !important;
+  }
+
+  .striped td:last-child, .striped th:last-child {
+    text-align: right !important;
+  }
+
+  .noStripe {
+    background-color: #fff !important;
+    text-align: center;
+  }
+
+  .noBorder {
+    border: 0 !important;
+  }
+
+  #items {
+
+  }

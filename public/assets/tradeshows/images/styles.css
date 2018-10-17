@@ -1,0 +1,445 @@
+/* custom styles */
+
+body {
+	padding-bottom: 0 !important;
+	/*background-color: #8b8b8b;*/
+}
+
+/* home page */
+
+#main-body-wht {
+	background-color: #fff;
+}
+
+#main-body {
+	background-color: #efefef;
+}
+
+#announcement-list {
+	text-align: center;
+}
+
+#announcements {
+	padding: 5px 0;
+	background: #29c2e2;
+	text-align: center;
+}
+
+#announcement-banner > div > div {
+	/* set to 0 so the image can fill up entire area */
+	padding: 0;
+}
+
+#announcement-banner img {
+	width: 100%;
+}
+
+#announcement {
+	color: #ebf442;
+}
+
+#main-about {
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+a.trade-show-highlights {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	line-height: 22px;
+}
+
+.hightlights {
+	margin-bottom: 50px;
+}
+
+#productApplications {
+	padding: 50px 0;
+	background-color: #efefef;
+	min-height: 650px;
+}
+
+#pa-header {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+.pa-heading {
+	color: #fbb03b;
+	font-size: 1.5rem;
+}
+
+.pa-container {
+	color: #fff;
+	background-color: #000;
+}
+
+.pa-container ul li {
+	margin-left: 0rem;
+	padding-left: 0rem;
+	font-size: 0.8rem;
+}
+
+.pa-image {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.spectrum-image {
+	background: #fff url('../images/spectrum4.jpg') no-repeat center top;
+	height: 4px;
+}
+
+#productApplications .nav-item {
+	color: #fff;
+	background-color: #196778;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+#productApplications .nav-item a {
+	color: #fff;
+	font-size: 1.3rem;
+
+}
+
+#productApplications .nav-item .active {
+	background-color: #5099a8;
+	border: 1px solid #5099a8;
+}
+
+#productApplications .nav-tabs .nav-link {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+
+/* about page */
+
+#about-quote {
+	margin: 50px 0 0 0;
+	padding: 50px 0;
+	border-top: 1px solid #ccc;
+}
+
+#about-quote q {
+	font-size: 2rem;
+	line-height: 1.9rem;
+	font-family: "droid", serif;
+}
+
+#cite {
+	text-align: right;
+}
+
+#footer {
+	margin-bottom: 0;
+	padding-top: 40px;
+	padding-bottom: 0;
+	background-color: #8b8b8b;
+	height: 200px;
+	color: #fff;
+}
+
+#footer a {
+	color: #fff;
+}
+
+.footer {
+	/*margin-bottom: 20px;*/
+}
+
+.footer-right {
+	text-align: right;
+}
+
+
+/* product page */
+
+.spec-download {
+	text-align: right;
+}
+
+.products-row-mobile {
+	margin-bottom: 25px;
+}
+
+.products-row {
+	margin-bottom: 25px;
+}
+
+/*
+.products-row .col-md-6:first-child {
+	padding-left: 0;
+}
+
+.products-row .col-md-6:last-child {
+	padding-right: 0;
+}
+*/
+
+.products-row:last-child {
+	margin-bottom: 50px;
+}
+
+.bread-crumbs {
+	color: #138496;
+}
+
+.bread-crumbs a {
+	color: #138496;
+}
+
+.products-md {
+	/*margin-bottom: 20px;*/
+	text-align: center;
+}
+
+.products-md .all-products {
+	min-height: 630px;
+}
+
+.products-md .product-btn {
+	position: absolute;
+	bottom: 25px;
+	left: 0px;
+}
+
+.products-md img {
+	width: 60%;
+}
+
+#productContent {
+	margin: 50px 0;
+}
+
+#product-image {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 0;
+}
+
+#product-image img {
+	width: 100%;
+}
+
+#product-info {
+	text-align: center;
+}
+
+.all-products .product-name {
+	margin-top: 20px;
+}
+
+.product-name {
+	color: #138496;
+	font-family: open-sans, sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
+	padding: 0px;
+}
+
+.product-name a {
+	color: #138496 !important;
+}
+
+.product-subheader {
+	color: #000;
+	font-size: 21px;
+	text-align: center;
+	line-height: 25px;
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+}
+
+#product-nav {
+	border-right: 1px solid #ccc;
+	margin-bottom: 50px;
+}
+
+#product-nav a {
+	color: #626262 !important;
+}
+
+#tabContent {
+	padding: 10px;
+	background-color: #fff;
+	font-size: 0.8rem;
+	border: 1px solid #ccc;
+	border-top: 0;
+}
+
+#description, #features {
+	min-height: 300px;
+}
+
+#features p {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-weight: bold;
+}
+
+#inspection-metrology {
+	font-weight: bold;
+}
+
+#plasma-surface {
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+/* products styles */
+.products-img {
+	width: 85%;
+}
+
+.all-products {
+	padding: 10px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	min-height: 450px;
+}
+
+.product-shadow {
+	-webkit-box-shadow: 0px 10px 11px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 11px -8px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 11px -8px rgba(0,0,0,0.75);
+}
+
+.product-header {
+	min-height: 225px;
+}
+
+.product-excerpt {
+	min-height: 160px;
+}
+
+.col .product-btn {
+	text-align: right;
+}
+
+.product-btn {
+	text-align: right;
+}
+
+.all-products .btn {
+	color: #fff !important;
+}
+
+/* third party products */
+
+.category-container {
+	margin: 25px 0;
+}
+
+.item-category {
+	margin-top: 25px;
+	margin-right: 70px;
+	padding-top: 30px;
+	border: 1px solid #ccc;
+	min-width: 300px;
+	height: 300px;
+}
+
+.item-category a {
+	color: #666;
+}
+
+.item-category:first-child {
+	margin-left: 35px;
+}
+
+.item-category:last-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.item-category:hover {
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+}
+
+.item-category p {
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.categories {
+	padding: 50px;
+	background-color: #fff;
+}
+
+#third-party-category-header {
+	margin-top: 15px;
+	text-transform: capitalize;
+}
+
+#third-party-product-nav {
+	margin: 0;
+	padding: 0;
+}
+
+#third-party-product-nav a {
+	text-decoration: underline;
+	color: #333;
+}
+
+.dropdown-nav-btn {
+	width: 100%;
+}
+
+
+/* Contact Page */
+
+#success-message {
+	text-align: center;
+	min-width: 300px;
+}
+
+#business-info, #contact-form {
+	margin-bottom: 50px;
+	padding: 25px;
+	background-color: #fff;
+	min-height: 960px;
+}
+
+#contact-icons {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#plan-your-trip {
+	padding: 50px 0;
+	background-color: #fff;
+}
+
+
+/* site-wide styles */
+
+#main-content {
+	padding-top: 50px;
+	min-height: 400px;
+}
+
+.nav-header-border {
+	border-bottom: 1px solid #cacaca;
+}
+
+.small-bg-light {
+	background-color: #fff !important;
+}
+
+.no-left-padding {
+	padding-left: 0 !important;
+}
+
+.no-right-padding {
+	padding-right: 0 !important;
+}

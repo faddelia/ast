@@ -1,0 +1,144 @@
+/*** nav.css ***/
+
+#header-nav {
+	margin-top: 25px;
+	padding: 0;
+}
+
+#phone {
+	margin: 0;
+	padding: 10px 0 0 0;
+	position: absolute;
+	color: #fff;
+	top: 0px;
+	right: 205px;
+	background-color: #29c2e2;
+	font-size: 75%;
+	width: 165px;
+	height: 35px;
+	text-align: center;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#navDropdown .container > .row .row:hover {
+	background-color: #efefef;
+}
+
+.no-hover {
+	background-color: transparent !important;
+}
+
+#header-nav {
+	/*margin-right: 50px;*/
+}
+
+#header-nav a:last-child {
+	padding-right: 0;
+}
+
+#header-nav a:hover {
+	text-decoration: underline;
+}
+
+#header-nav .nav-item {
+	margin-right: 50px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+#header-nav .nav-item:last-child {
+	margin-right: 0;
+}
+
+#navDropdown {
+	position: absolute;
+	/*left: -600px;*/
+	left: -500%;
+	top: 56px;
+	padding: 15px 25px;
+	width: 1100px;
+	background-color: #efefef
+	-webkit-border-radius: 5px;
+	-webkit-border-top-left-radius: 0;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius: 5px;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;
+	border-radius: 5px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+#navDropdown a:hover {
+	background-color: transparent;
+}
+
+.navbar > .container {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.nav-body {
+	margin-bottom: 0;
+	font-weight: 200;
+	font-size: 0.7rem;
+}
+
+.nav-table-header {
+	font-size: 0.8rem;
+	text-decoration: underline;
+}
+
+.nav-table-header-border {
+	border-left: 1px solid #ccc;
+}
+
+.nav-header {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-weight: bold;
+}
+
+.nav-header a {
+	padding: 0;
+	text-align: left;
+}
+
+.nav-img {
+	margin: 0;
+	padding: 0;
+}
+
+/* #see-all-products, #third-party-products { */
+.btn-teal {
+	margin: 4px 0;
+	color: #fff;
+	background-color: #29c2e2 !important;
+	background-image: none !important;
+	text-transform: none;
+}
+
+.btn-link-teal {
+	color: #28c2e2;
+}
+
+.btn-link-teal:hover {
+	text-decoration: underline;
+	color: #28c2e2;
+}
+
+#see-all-products:hover, #third-party-products:hover {
+	background-color: #29c2e2 !important;
+	background-image: none;
+	opacity: 0.7 !important;
+}
+
+#mobile-nav a {
+	color: #666;
+}
